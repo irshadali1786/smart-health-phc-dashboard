@@ -84,6 +84,20 @@ python scripts/seed_firestore.py     # one-time: push CSVs into Firestore
 Restart the backend — `/api/*` now reads Firestore and `/api/insights` calls
 Gemini (still guardrailed; falls back automatically if the call fails).
 
+## 📸 Screenshots
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.jpg)
+
+### Dashboard Overview
+
+![Dashboard Overview](screenshots/dashboard2.jpg)
+
+### Dashboard Analytics
+
+![Dashboard Analytics](screenshots/dashboard3.jpg)
+
 ## Live deployment (Google Cloud Run)
 
 See `DEPLOY.md` for the full `gcloud`/Docker sequence to get a public URL
